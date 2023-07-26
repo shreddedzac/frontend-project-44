@@ -7,8 +7,8 @@ gendiff:
 publish:
      pm publish --dry-run
 
- lint:
-     npx eslint .
+lint:
+     npx eslintls
 
 brain-games:
      node bin/brain-games.js
