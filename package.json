@@ -1,18 +1,19 @@
 {
     "name": "@hexlet/code",
     "version": "1.0.0",
-    "type":"module",
+    "type": "module",
     "bin": {
-      "brain-games": "bin/brain-games.js"
-       },
+        "brain-games": "bin/brain-games.js"
+    },
     "description": "[![Actions Status](https://github.com/shreddedzac/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/shreddedzac/frontend-project-44/actions)",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "makefile": "^0.0.2"
+        "makefile": "^0.0.2",
+        "readline-sync": "^1.4.10"
     }
-  }
+}
