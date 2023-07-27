@@ -1,14 +1,14 @@
 install:
-    npm ci
+	npm ci
 
 gendiff:
-    node bin/gendiff.js
+	node bin/gendiff.js
 
 publish:
-    npm publish --dry-run
+	pm publish --dry-run
 
 lint:
-    npx eslint .
+	npx eslintls
 
 brain-games:
-    node bin/brain-games.js
+	node bin/brain-games.js
