@@ -8,10 +8,7 @@ publish:
 	pm publish --dry-run
 
 lint:
-	npx eslintls
+	npx eslint .
 
 brain-games:
 	node bin/brain-games.js
-
-make lint:
-  npx eslint .
