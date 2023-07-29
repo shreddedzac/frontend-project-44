@@ -2,7 +2,9 @@ env:
   es6: true
 
 plugins:
-  fp
+  - "fp"
 
-rules:
-  # Правила будут здесь
+rules: {}
+
+parserOptions:
+  sourceType: module
