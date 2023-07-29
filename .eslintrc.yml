@@ -1,0 +1,8 @@
+env:
+  es6: true
+
+plugins:
+  fp
+
+rules:
+  # Правила будут здесь
